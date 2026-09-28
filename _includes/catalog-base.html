@@ -9,7 +9,9 @@
         align-items: center;
 
         @media (max-width: 506px) {
-            text-align: center;
+            flex-direction: column;
+            gap: 10px;
+            width: 100%;
             margin: auto;
         }
     }
@@ -26,7 +28,8 @@
         margin-right: 10px;
 
         @media (max-width: 506px) {
-            width: 35%;
+            width: 100%;
+            margin-right: 0;
             box-sizing: border-box;
         }
     }
@@ -38,6 +41,9 @@
         border: 1px solid #ddd;
         border-radius: 5px;
         box-sizing: border-box;
+                @media (max-width: 506px) {
+            width: 100%;
+        }
         top: 0;
     }
 
